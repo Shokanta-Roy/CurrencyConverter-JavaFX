@@ -28,15 +28,25 @@ It allows users to convert between currencies and view their conversion history.
 
 ## 📂 Project Structure
 Currency_Converter/
+
 ├── src/ # Java source files
+
 │ ├── Main.java # Entry point
+
 │ ├── MainController.java
+
 │ ├── HistoryController.java
+
 │ └── ConversionRecord.java
+
 ├── resources/ # FXML + assets
+
 │ ├── MainScene.fxml
+
 │ └── HistoryScene.fxml
+
 ├── .gitignore
+
 └── README.md
 
 ---
