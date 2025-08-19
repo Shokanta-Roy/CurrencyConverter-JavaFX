@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.currency_converter.ConverterController"
+      spacing="10" alignment="CENTER">
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <TextField fx:id="amountField" promptText="Enter amount"/>
+    <ComboBox fx:id="fromCurrency" promptText="From"/>
+    <ComboBox fx:id="toCurrency" promptText="To"/>
+
+    <Button text="Convert" onAction="#handleConvert"/>
+    <Label fx:id="resultLabel" text="Result will show here"/>
+    <Button text="View History" onAction="#handleViewHistory"/>
+
+</VBox>
